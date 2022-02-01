@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ERViewer from "./components/ERViewer.vue";
+</script>
 
 <template>
-    <div>hi</div>
+    <div class="bg-gray-200 w-full h-screen">
+        <ERViewer />
+    </div>
 </template>
 
 <style>
